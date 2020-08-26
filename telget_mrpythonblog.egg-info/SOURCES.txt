@@ -1,0 +1,8 @@
+README.md
+setup.py
+telget/Username.py
+telget/__init__.py
+telget_mrpythonblog.egg-info/PKG-INFO
+telget_mrpythonblog.egg-info/SOURCES.txt
+telget_mrpythonblog.egg-info/dependency_links.txt
+telget_mrpythonblog.egg-info/top_level.txt

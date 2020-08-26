@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: telget
+Version: 1.0.0
+Summary: a Small Library for Getting Info About Telegram Usernames .
+Home-page: https://github.com/mrpythonblog/telget
+Author: MrPythonBlog
+Author-email: mrpython@gmail.com
+License: UNKNOWN
+Description: # TELGET - getting info about telegram usernames (Ver 1.0.0) .
+        
+        ## a small package for getting info about telegram accounts .
+        
+        ---------------------------------------------------------------
+        
+        # USAGE 
+        
+        1 - IMPORT PACKAGE
+        	``>>> from telget import Username``
+        
+        2 - MAKE OBJECT 
+        	``>>> username = "telegram_username"``
+        	``>>> account = Username(username)``
+        
+        3 - GET INFO ABOUT USERNAME 
+        - GET Account TYPE (Channel or Group or ....) -> ``>>> account.getType()``
+        - GET Bio -> ``>>> account.getBio()``
+        - GET Members (for channels and groups) -> ``>>> account.getMembers()``
+        - Download And Save Profile Photo -> ``>>> account.getProfilePhoto(path_to_save)``
+        
+        
+        Have Fun ... 
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
